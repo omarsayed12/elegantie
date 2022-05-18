@@ -780,9 +780,9 @@ footer .footer-heading {
 /* media query */
 
 @media screen and (max-width: 425px) {
-  .fetures .ourFetures-content {
+  /* .fetures .ourFetures-content {
     width: 280px;
-  }
+  } */
   .ourClient-opinions .ourClient-content {
     width: 300px;
   }
