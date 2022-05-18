@@ -39,6 +39,16 @@ body {
   font-size: 10px;
 }
 
+.hairCare-product .slick-dots {
+  width: 50% !important;
+  bottom: -38px;
+}
+
+.skinCare-set .slick-dots {
+  bottom: -38px;
+  text-align: end;
+  width: 75%;
+}
 .looping-text{
   background: #CB6D86;
   color: #fff;
@@ -295,6 +305,7 @@ header .hero-section {
 }
 .how-to-use .useProduct-details {
   text-align: center;
+  padding: 0 10px;
 }
 
 .howToUse-content {

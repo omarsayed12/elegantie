@@ -86,11 +86,13 @@ $('.product-display').slick({
   slidesToShow: 1,
   slidesToScroll: 1,
   autoplay: true,
-  autoplaySpeed: 3000,
+  autoplaySpeed: 4000,
   mobileFirst: true,
   rtl: true,
   arrows: false,
-  dots:true
+  dots: true,
+  lazyLoad: 'ondemand',
+  cssEase: 'linear'
 });
 
 $('.shop').slick({
