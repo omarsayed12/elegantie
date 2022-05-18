@@ -357,7 +357,7 @@ header .hero-section {
 }
 .howToUse-content:hover {
   transform: scale3d(1.05, 1.05, 1.05);
-  background-color: var(--mian-color);
+  background-color: #cb6d86bd;
 }
 .howToUse-content img {
   -webkit-transition: all .4s ease-in-out;
