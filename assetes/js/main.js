@@ -85,7 +85,7 @@ $('.new').slick({
 $('.product-display').slick({
   slidesToShow: 1,
   slidesToScroll: 1,
-  autoplay: true,
+  // autoplay: true,
   autoplaySpeed: 4000,
   mobileFirst: true,
   rtl: true,

@@ -49,6 +49,33 @@ body {
   text-align: end;
   width: 75%;
 }
+
+@media screen and (min-width: 767.98px) and (max-width: 991.98px) {
+  .hairCare-product .slick-dots {
+    bottom: 16px;
+  }
+  .skinCare-set .slick-dots {
+    bottom: 6px;
+    text-align: end;
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .hairCare-product .slick-dots {
+    width: 100% !important;
+  }
+  .skinCare-set .slick-dots {
+    bottom: -35px;
+    text-align: center;
+    width: 100%;
+  }
+  .hairCare-content,
+  .skinCareSet-content {
+    margin-top: 30px;
+  }
+}
+
 .looping-text{
   background: #CB6D86;
   color: #fff;
