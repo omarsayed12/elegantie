@@ -846,7 +846,7 @@ footer .footer-heading {
     transform: translateX(0);
   }
   100% {
-    transform: translateX(calc(-220px * 2));
+    transform: translateX(calc(-100px * 6));
   }
 }
 .slider {
