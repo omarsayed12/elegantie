@@ -113,10 +113,30 @@ body {
   font-size: 14px;
   line-height: 20px;
   padding: 0 14px;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
  }
  .navbar-light .navbar-nav .nav-link.active,
  .navbar-light .navbar-nav .show>.nav-link {
+  color: var(--primary-coloror);
+}
+
+.icon-text {
+  text-decoration: none;
   color: var(--primary-color);
+  font-size: 13px;
+}
+.icon-text:hover {
+  color: #ab67a5c0;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  transform: scale(1.08);
+}
+
+.navbar .nav-icons .nav-item:hover {
+  transform: scale(1.1);
 }
 
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
@@ -126,6 +146,10 @@ body {
 
 .navbar .nav-icons .nav-item {
   margin-right: 20px;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
 }
 
 .navbar-light .navbar-toggler-icon  {
@@ -142,6 +166,10 @@ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32
   height: 30px;
   justify-content: center;
   align-items: center;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
 }
 .navbar .nav-icons .nav-item .nav-link  img {
   max-width: 15px;
@@ -841,14 +869,6 @@ footer .footer-heading {
   }
 }
 
-@keyframes scroll{
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(calc(-100px * 6));
-  }
-}
 .slider {
   width: 100%;
   background: var(--mian-color);
@@ -868,11 +888,19 @@ footer .footer-heading {
 .slider-wrap {
     animation: scroll 10s linear infinite;
     display: flex;
-    width: calc(250px * 6);
+    width: 100%;
     height:100%;
   }
 .slide{
   width:100%;
   height:100%;
   text-align:center;
+}
+@keyframes scroll{
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(calc(200px));
+  }
 }
