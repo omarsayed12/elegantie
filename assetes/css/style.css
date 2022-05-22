@@ -785,7 +785,7 @@ input::placeholder {
 
 /* start footer */
 footer {
-  background-color: var(--mian-color);
+  background-color: var(--mian-color)
 }
 
 footer .footer-heading {
@@ -794,9 +794,10 @@ footer .footer-heading {
   font-size: 20px;
   line-height: 28px;
 }
-/* .footer-logo {
-  padding-right: 65px;
-} */
+.colfooter-logo {
+  max-width: 1092px;
+  margin: auto;
+}
 .about-desc,
 .links .nav-item .nav-link{
   font-weight: 400;
